@@ -26,6 +26,11 @@ dtu-times-crud/
 - Node.js (v16 or higher)
 - npm or yarn package manager
 
+### Live Demo
+
+- **Frontend Application**: [DTU Times Frontend](https://dtutimes.vercel.app)
+- **Backend API**: [DTU Times Backend](https://dtu-times-backend.onrender.com/editions)
+
 ### Backend Setup
 
 1. Navigate to the backend directory:
@@ -43,7 +48,7 @@ dtu-times-crud/
    npm start
    ```
 
-The backend server will run on `http://localhost:3001` by default.
+The backend server will run on `http://localhost:5000` by default.
 
 ### Frontend Setup
 
@@ -86,11 +91,6 @@ The frontend application will run on `http://localhost:5173` by default.
 - **Update** existing edition details
 - **Delete** editions from the system
 
-### User Interface
-- Modern, responsive design
-- Intuitive navigation
-- Form validation
-- Real-time updates
 
 ## 🔧 API Endpoints
 
@@ -102,48 +102,6 @@ The backend provides the following REST API endpoints:
 - `PUT /editions/:id` - Update an existing edition
 - `DELETE /editions/:id` - Delete an edition
 
-## 📁 Component Structure
-
-### Frontend Components
-- **Navbar** - Navigation component
-- **EditionCard** - Display individual edition information
-- **CreateEdition** - Form for creating new editions
-- **EditEdition** - Form for editing existing editions
-- **EditionDetails** - Detailed view of a single edition
-- **Editions** - List view of all editions
-
-### UI Components
-- **Button** - Reusable button component
-- **Input** - Form input component
-- **Select** - Dropdown selection component
-- **Calendar** - Date picker component
-- **Alert Dialog** - Confirmation dialogs
-- **Popover** - Overlay component
-
-## 🚀 Deployment
-
-### Backend
-The backend can be deployed to any Node.js hosting platform (Heroku, Railway, Render, etc.).
-
-### Frontend
-The frontend is configured for Vercel deployment with `vercel.json` configuration.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Support
-
-For questions or support, please open an issue in the repository or contact the development team.
-
----
-
-**Note**: This is a development project. The `db.json` file serves as a mock database and should not be used in production environments.
